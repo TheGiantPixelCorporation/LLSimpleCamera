@@ -37,6 +37,12 @@ typedef enum : NSUInteger {
 @property (nonatomic, copy) void (^onDeviceChange)(LLSimpleCamera *camera, AVCaptureDevice *device);
 
 /**
+ * Triggered on device change.
+ */
+@property (nonatomic, copy) void (^onSessionStarted)(LLSimpleCamera *camera);
+
+
+/**
  * Triggered on any kind of error.
  */
 @property (nonatomic, copy) void (^onError)(LLSimpleCamera *camera, NSError *error);

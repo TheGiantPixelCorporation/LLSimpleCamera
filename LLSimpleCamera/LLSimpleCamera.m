@@ -249,6 +249,9 @@ NSString *const LLSimpleCameraErrorDomain = @"LLSimpleCameraErrorDomain";
     }
     
     [self.session startRunning];
+    if (self.onSessionStarted) {
+        self.onSessionStarted(self);
+    }
 }
 
 - (void)stop {
