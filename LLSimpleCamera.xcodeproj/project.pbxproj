@@ -7,13 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		037481C71BED713000DA5CFE /* LLCameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037481B01BED692500DA5CFE /* LLCameraViewController.swift */; };
+		037481C81BED713F00DA5CFE /* UIImage+FixOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1713621A1A0144100034A6FE /* UIImage+FixOrientation.m */; };
+		037481C91BED714300DA5CFE /* LLSimpleCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E4C4AA1A01235200E61ACD /* LLSimpleCamera.m */; };
+		037481CA1BED714900DA5CFE /* LLCapturePipeline.m in Sources */ = {isa = PBXBuildFile; fileRef = 037481A51BED672F00DA5CFE /* LLCapturePipeline.m */; };
+		037481CB1BED714900DA5CFE /* LLMovieRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 037481A81BED676800DA5CFE /* LLMovieRecorder.m */; };
+		037481CC1BED714900DA5CFE /* LLCapturePipelineDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037481B21BED69D000DA5CFE /* LLCapturePipelineDelegate.swift */; };
+		037481CD1BED714F00DA5CFE /* LLRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 037481A31BED666600DA5CFE /* LLRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		037481D31BED8EDE00DA5CFE /* LLCapturePipeline.h in Headers */ = {isa = PBXBuildFile; fileRef = 037481A41BED672F00DA5CFE /* LLCapturePipeline.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		037481D41BED8EDE00DA5CFE /* LLMovieRecorder.h in Headers */ = {isa = PBXBuildFile; fileRef = 037481A71BED676800DA5CFE /* LLMovieRecorder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		037481D81BEFA60500DA5CFE /* RosyWriterOpenGLRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 037481D61BEFA60500DA5CFE /* RosyWriterOpenGLRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		037481D91BEFA60500DA5CFE /* RosyWriterOpenGLRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 037481D71BEFA60500DA5CFE /* RosyWriterOpenGLRenderer.m */; };
+		037481DD1BF0278900DA5CFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 037481DC1BF0278900DA5CFE /* Main.storyboard */; };
+		037481E11BF11A6800DA5CFE /* myFilter.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 037481DF1BF11A6800DA5CFE /* myFilter.fsh */; };
+		037481E21BF11A6800DA5CFE /* myFilter.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 037481E01BF11A6800DA5CFE /* myFilter.vsh */; };
+		037481E51BF1206800DA5CFE /* LLSimpleCamera.h in Headers */ = {isa = PBXBuildFile; fileRef = 17E4C4A91A01235200E61ACD /* LLSimpleCamera.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		037481E81BF12CE900DA5CFE /* RosyWriterCIFilterRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 037481E61BF12CE900DA5CFE /* RosyWriterCIFilterRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		037481E91BF12CE900DA5CFE /* RosyWriterCIFilterRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 037481E71BF12CE900DA5CFE /* RosyWriterCIFilterRenderer.m */; };
+		037481EF1BF15BFC00DA5CFE /* RippleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 037481EC1BF15BFC00DA5CFE /* RippleModel.m */; };
+		037481F01BF15BFC00DA5CFE /* RippleOpenGLRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 037481EE1BF15BFC00DA5CFE /* RippleOpenGLRenderer.m */; };
+		037481F31BF15C0800DA5CFE /* RippleShader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 037481F11BF15C0800DA5CFE /* RippleShader.fsh */; };
+		037481F41BF15C0800DA5CFE /* RippleShader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 037481F21BF15C0800DA5CFE /* RippleShader.vsh */; };
+		03A5627B1BF1C74A007BE45F /* ExampleCameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A5627A1BF1C74A007BE45F /* ExampleCameraViewController.swift */; };
+		03A5627E1BF2CF03007BE45F /* DefaultRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A5627D1BF2CF03007BE45F /* DefaultRenderer.swift */; };
 		170030D11B122F3700585CEB /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 170030D01B122F3700585CEB /* VideoViewController.m */; };
 		170030D51B1231B400585CEB /* cancel.png in Resources */ = {isa = PBXBuildFile; fileRef = 170030D21B1231B400585CEB /* cancel.png */; };
 		170030D61B1231B400585CEB /* cancel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 170030D31B1231B400585CEB /* cancel@2x.png */; };
 		170030D71B1231B400585CEB /* cancel@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 170030D41B1231B400585CEB /* cancel@3x.png */; };
 		170030DA1B1232D100585CEB /* camera-flash.png in Resources */ = {isa = PBXBuildFile; fileRef = 170030D81B1232D100585CEB /* camera-flash.png */; };
 		170030DB1B1232D100585CEB /* camera-flash@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 170030D91B1232D100585CEB /* camera-flash@2x.png */; };
-		1713621B1A0144100034A6FE /* UIImage+FixOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1713621A1A0144100034A6FE /* UIImage+FixOrientation.m */; };
 		17BD92341A1776E20016070B /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17BD92331A1776E20016070B /* ImageViewController.m */; };
 		17BD92641A17F0040016070B /* camera-switch.png in Resources */ = {isa = PBXBuildFile; fileRef = 17BD92621A17F0040016070B /* camera-switch.png */; };
 		17BD92651A17F0040016070B /* camera-switch@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 17BD92631A17F0040016070B /* camera-switch@2x.png */; };
@@ -21,8 +43,6 @@
 		17E4C4881A0122A700E61ACD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E4C4871A0122A700E61ACD /* AppDelegate.m */; };
 		17E4C4901A0122A700E61ACD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17E4C48F1A0122A700E61ACD /* Images.xcassets */; };
 		17E4C4931A0122A700E61ACD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17E4C4911A0122A700E61ACD /* LaunchScreen.xib */; };
-		17E4C49F1A0122A700E61ACD /* LLSimpleCameraExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E4C49E1A0122A700E61ACD /* LLSimpleCameraExampleTests.m */; };
-		17E4C4AB1A01235200E61ACD /* LLSimpleCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E4C4AA1A01235200E61ACD /* LLSimpleCamera.m */; };
 		17E4C4B31A0123C100E61ACD /* UIImage+Crop.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E4C4AE1A0123C100E61ACD /* UIImage+Crop.m */; };
 		17E4C4B51A0123C100E61ACD /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E4C4B21A0123C100E61ACD /* UIImage+Resize.m */; };
 		17E4C4B91A01285800E61ACD /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E4C4B81A01285800E61ACD /* HomeViewController.m */; };
@@ -40,6 +60,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		037481A31BED666600DA5CFE /* LLRenderer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLRenderer.h; sourceTree = "<group>"; };
+		037481A41BED672F00DA5CFE /* LLCapturePipeline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLCapturePipeline.h; sourceTree = "<group>"; };
+		037481A51BED672F00DA5CFE /* LLCapturePipeline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLCapturePipeline.m; sourceTree = "<group>"; };
+		037481A71BED676800DA5CFE /* LLMovieRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLMovieRecorder.h; sourceTree = "<group>"; };
+		037481A81BED676800DA5CFE /* LLMovieRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLMovieRecorder.m; sourceTree = "<group>"; };
+		037481B01BED692500DA5CFE /* LLCameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LLCameraViewController.swift; sourceTree = "<group>"; };
+		037481B21BED69D000DA5CFE /* LLCapturePipelineDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LLCapturePipelineDelegate.swift; sourceTree = "<group>"; };
+		037481B91BED70FF00DA5CFE /* LLSimpleCamera.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LLSimpleCamera.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		037481BD1BED70FF00DA5CFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		037481D61BEFA60500DA5CFE /* RosyWriterOpenGLRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RosyWriterOpenGLRenderer.h; sourceTree = "<group>"; };
+		037481D71BEFA60500DA5CFE /* RosyWriterOpenGLRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RosyWriterOpenGLRenderer.m; sourceTree = "<group>"; };
+		037481DC1BF0278900DA5CFE /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		037481DF1BF11A6800DA5CFE /* myFilter.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = myFilter.fsh; sourceTree = "<group>"; };
+		037481E01BF11A6800DA5CFE /* myFilter.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = myFilter.vsh; sourceTree = "<group>"; };
+		037481E61BF12CE900DA5CFE /* RosyWriterCIFilterRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RosyWriterCIFilterRenderer.h; sourceTree = "<group>"; };
+		037481E71BF12CE900DA5CFE /* RosyWriterCIFilterRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RosyWriterCIFilterRenderer.m; sourceTree = "<group>"; };
+		037481EB1BF15BFC00DA5CFE /* RippleModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RippleModel.h; sourceTree = "<group>"; };
+		037481EC1BF15BFC00DA5CFE /* RippleModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RippleModel.m; sourceTree = "<group>"; };
+		037481ED1BF15BFC00DA5CFE /* RippleOpenGLRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RippleOpenGLRenderer.h; sourceTree = "<group>"; };
+		037481EE1BF15BFC00DA5CFE /* RippleOpenGLRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RippleOpenGLRenderer.m; sourceTree = "<group>"; };
+		037481F11BF15C0800DA5CFE /* RippleShader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = RippleShader.fsh; sourceTree = "<group>"; };
+		037481F21BF15C0800DA5CFE /* RippleShader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = RippleShader.vsh; sourceTree = "<group>"; };
+		03A5627A1BF1C74A007BE45F /* ExampleCameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleCameraViewController.swift; sourceTree = "<group>"; };
+		03A5627C1BF1C82C007BE45F /* LLSimpleCameraExample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LLSimpleCameraExample-Bridging-Header.h"; sourceTree = "<group>"; };
+		03A5627D1BF2CF03007BE45F /* DefaultRenderer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultRenderer.swift; sourceTree = "<group>"; };
 		170030CF1B122F3700585CEB /* VideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoViewController.h; sourceTree = "<group>"; };
 		170030D01B122F3700585CEB /* VideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoViewController.m; sourceTree = "<group>"; };
 		170030D21B1231B400585CEB /* cancel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cancel.png; sourceTree = "<group>"; };
@@ -60,9 +105,7 @@
 		17E4C4871A0122A700E61ACD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		17E4C48F1A0122A700E61ACD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		17E4C4921A0122A700E61ACD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		17E4C4981A0122A700E61ACD /* LLSimpleCameraExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LLSimpleCameraExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		17E4C49D1A0122A700E61ACD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		17E4C49E1A0122A700E61ACD /* LLSimpleCameraExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLSimpleCameraExampleTests.m; sourceTree = "<group>"; };
+		17E4C4981A0122A700E61ACD /* LLSimpleCamera.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LLSimpleCamera.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		17E4C4A91A01235200E61ACD /* LLSimpleCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLSimpleCamera.h; sourceTree = "<group>"; };
 		17E4C4AA1A01235200E61ACD /* LLSimpleCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLSimpleCamera.m; sourceTree = "<group>"; };
 		17E4C4AD1A0123C100E61ACD /* UIImage+Crop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Crop.h"; sourceTree = "<group>"; };
@@ -76,6 +119,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		037481B51BED70FF00DA5CFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		17E4C47C1A0122A700E61ACD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -93,6 +143,66 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		037481AA1BED67C700DA5CFE /* Renderer */ = {
+			isa = PBXGroup;
+			children = (
+				037481A31BED666600DA5CFE /* LLRenderer.h */,
+				037481D61BEFA60500DA5CFE /* RosyWriterOpenGLRenderer.h */,
+				037481D71BEFA60500DA5CFE /* RosyWriterOpenGLRenderer.m */,
+				037481E61BF12CE900DA5CFE /* RosyWriterCIFilterRenderer.h */,
+				037481E71BF12CE900DA5CFE /* RosyWriterCIFilterRenderer.m */,
+				03A5627D1BF2CF03007BE45F /* DefaultRenderer.swift */,
+			);
+			name = Renderer;
+			sourceTree = "<group>";
+		};
+		037481AE1BED681700DA5CFE /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				037481B01BED692500DA5CFE /* LLCameraViewController.swift */,
+			);
+			name = Camera;
+			sourceTree = "<group>";
+		};
+		037481DE1BF11A5500DA5CFE /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				037481DF1BF11A6800DA5CFE /* myFilter.fsh */,
+				037481E01BF11A6800DA5CFE /* myFilter.vsh */,
+			);
+			name = Shaders;
+			sourceTree = "<group>";
+		};
+		037481E41BF11EB100DA5CFE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				037481BD1BED70FF00DA5CFE /* Info.plist */,
+				037481DE1BF11A5500DA5CFE /* Shaders */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		037481EA1BF15BD700DA5CFE /* RippleOpenGL */ = {
+			isa = PBXGroup;
+			children = (
+				037481F51BF15C1800DA5CFE /* Shaders */,
+				037481EB1BF15BFC00DA5CFE /* RippleModel.h */,
+				037481EC1BF15BFC00DA5CFE /* RippleModel.m */,
+				037481ED1BF15BFC00DA5CFE /* RippleOpenGLRenderer.h */,
+				037481EE1BF15BFC00DA5CFE /* RippleOpenGLRenderer.m */,
+			);
+			name = RippleOpenGL;
+			sourceTree = "<group>";
+		};
+		037481F51BF15C1800DA5CFE /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				037481F11BF15C0800DA5CFE /* RippleShader.fsh */,
+				037481F21BF15C0800DA5CFE /* RippleShader.vsh */,
+			);
+			name = Shaders;
+			sourceTree = "<group>";
+		};
 		17BD92411A17DB150016070B /* Images */ = {
 			isa = PBXGroup;
 			children = (
@@ -112,16 +222,17 @@
 			children = (
 				17E4C4A81A01235200E61ACD /* LLSimpleCamera */,
 				17E4C4811A0122A700E61ACD /* LLSimpleCameraExample */,
-				17E4C49B1A0122A700E61ACD /* LLSimpleCameraExampleTests */,
 				17E4C4801A0122A700E61ACD /* Products */,
 			);
+			indentWidth = 3;
 			sourceTree = "<group>";
 		};
 		17E4C4801A0122A700E61ACD /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				17E4C47F1A0122A700E61ACD /* LLSimpleCameraExample.app */,
-				17E4C4981A0122A700E61ACD /* LLSimpleCameraExampleTests.xctest */,
+				17E4C4981A0122A700E61ACD /* LLSimpleCamera.xctest */,
+				037481B91BED70FF00DA5CFE /* LLSimpleCamera.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -129,6 +240,7 @@
 		17E4C4811A0122A700E61ACD /* LLSimpleCameraExample */ = {
 			isa = PBXGroup;
 			children = (
+				037481EA1BF15BD700DA5CFE /* RippleOpenGL */,
 				17BD92411A17DB150016070B /* Images */,
 				17E4C4B61A0123E400E61ACD /* Controllers */,
 				17E4C4AC1A01238D00E61ACD /* Utility */,
@@ -137,6 +249,7 @@
 				17E4C48F1A0122A700E61ACD /* Images.xcassets */,
 				17E4C4911A0122A700E61ACD /* LaunchScreen.xib */,
 				17E4C4821A0122A700E61ACD /* Supporting Files */,
+				03A5627C1BF1C82C007BE45F /* LLSimpleCameraExample-Bridging-Header.h */,
 			);
 			path = LLSimpleCameraExample;
 			sourceTree = "<group>";
@@ -150,30 +263,21 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		17E4C49B1A0122A700E61ACD /* LLSimpleCameraExampleTests */ = {
-			isa = PBXGroup;
-			children = (
-				17E4C49E1A0122A700E61ACD /* LLSimpleCameraExampleTests.m */,
-				17E4C49C1A0122A700E61ACD /* Supporting Files */,
-			);
-			path = LLSimpleCameraExampleTests;
-			sourceTree = "<group>";
-		};
-		17E4C49C1A0122A700E61ACD /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				17E4C49D1A0122A700E61ACD /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		17E4C4A81A01235200E61ACD /* LLSimpleCamera */ = {
 			isa = PBXGroup;
 			children = (
+				037481E41BF11EB100DA5CFE /* Resources */,
+				037481AE1BED681700DA5CFE /* Camera */,
+				037481AA1BED67C700DA5CFE /* Renderer */,
 				171362191A0144100034A6FE /* UIImage+FixOrientation.h */,
 				1713621A1A0144100034A6FE /* UIImage+FixOrientation.m */,
 				17E4C4A91A01235200E61ACD /* LLSimpleCamera.h */,
 				17E4C4AA1A01235200E61ACD /* LLSimpleCamera.m */,
+				037481A41BED672F00DA5CFE /* LLCapturePipeline.h */,
+				037481A51BED672F00DA5CFE /* LLCapturePipeline.m */,
+				037481A71BED676800DA5CFE /* LLMovieRecorder.h */,
+				037481A81BED676800DA5CFE /* LLMovieRecorder.m */,
+				037481B21BED69D000DA5CFE /* LLCapturePipelineDelegate.swift */,
 			);
 			path = LLSimpleCamera;
 			sourceTree = "<group>";
@@ -200,13 +304,49 @@
 				17E4C4B81A01285800E61ACD /* HomeViewController.m */,
 				17BD92321A1776E20016070B /* ImageViewController.h */,
 				17BD92331A1776E20016070B /* ImageViewController.m */,
+				037481DC1BF0278900DA5CFE /* Main.storyboard */,
+				03A5627A1BF1C74A007BE45F /* ExampleCameraViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		037481B61BED70FF00DA5CFE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				037481E51BF1206800DA5CFE /* LLSimpleCamera.h in Headers */,
+				037481D41BED8EDE00DA5CFE /* LLMovieRecorder.h in Headers */,
+				037481CD1BED714F00DA5CFE /* LLRenderer.h in Headers */,
+				037481E81BF12CE900DA5CFE /* RosyWriterCIFilterRenderer.h in Headers */,
+				037481D81BEFA60500DA5CFE /* RosyWriterOpenGLRenderer.h in Headers */,
+				037481D31BED8EDE00DA5CFE /* LLCapturePipeline.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		037481B81BED70FF00DA5CFE /* LLSimpleCamera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 037481C21BED70FF00DA5CFE /* Build configuration list for PBXNativeTarget "LLSimpleCamera" */;
+			buildPhases = (
+				037481B41BED70FF00DA5CFE /* Sources */,
+				037481B51BED70FF00DA5CFE /* Frameworks */,
+				037481B61BED70FF00DA5CFE /* Headers */,
+				037481B71BED70FF00DA5CFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LLSimpleCamera;
+			productName = LLSimpleCamera;
+			productReference = 037481B91BED70FF00DA5CFE /* LLSimpleCamera.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		17E4C47E1A0122A700E61ACD /* LLSimpleCameraExample */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 17E4C4A21A0122A700E61ACD /* Build configuration list for PBXNativeTarget "LLSimpleCameraExample" */;
@@ -224,9 +364,9 @@
 			productReference = 17E4C47F1A0122A700E61ACD /* LLSimpleCameraExample.app */;
 			productType = "com.apple.product-type.application";
 		};
-		17E4C4971A0122A700E61ACD /* LLSimpleCameraExampleTests */ = {
+		17E4C4971A0122A700E61ACD /* LLSimpleCameraTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 17E4C4A51A0122A700E61ACD /* Build configuration list for PBXNativeTarget "LLSimpleCameraExampleTests" */;
+			buildConfigurationList = 17E4C4A51A0122A700E61ACD /* Build configuration list for PBXNativeTarget "LLSimpleCameraTests" */;
 			buildPhases = (
 				17E4C4941A0122A700E61ACD /* Sources */,
 				17E4C4951A0122A700E61ACD /* Frameworks */,
@@ -237,9 +377,9 @@
 			dependencies = (
 				17E4C49A1A0122A700E61ACD /* PBXTargetDependency */,
 			);
-			name = LLSimpleCameraExampleTests;
+			name = LLSimpleCameraTests;
 			productName = LLSimpleCameraExampleTests;
-			productReference = 17E4C4981A0122A700E61ACD /* LLSimpleCameraExampleTests.xctest */;
+			productReference = 17E4C4981A0122A700E61ACD /* LLSimpleCamera.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -248,9 +388,13 @@
 		17E4C4771A0122A700E61ACD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 0600;
 				ORGANIZATIONNAME = "Ömer Faruk Gül";
 				TargetAttributes = {
+					037481B81BED70FF00DA5CFE = {
+						CreatedOnToolsVersion = 7.1;
+					};
 					17E4C47E1A0122A700E61ACD = {
 						CreatedOnToolsVersion = 6.0.1;
 					};
@@ -260,7 +404,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 17E4C47A1A0122A700E61ACD /* Build configuration list for PBXProject "LLSimpleCameraExample" */;
+			buildConfigurationList = 17E4C47A1A0122A700E61ACD /* Build configuration list for PBXProject "LLSimpleCamera" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -274,22 +418,35 @@
 			projectRoot = "";
 			targets = (
 				17E4C47E1A0122A700E61ACD /* LLSimpleCameraExample */,
-				17E4C4971A0122A700E61ACD /* LLSimpleCameraExampleTests */,
+				17E4C4971A0122A700E61ACD /* LLSimpleCameraTests */,
+				037481B81BED70FF00DA5CFE /* LLSimpleCamera */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		037481B71BED70FF00DA5CFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				037481E11BF11A6800DA5CFE /* myFilter.fsh in Resources */,
+				037481E21BF11A6800DA5CFE /* myFilter.vsh in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		17E4C47D1A0122A700E61ACD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				170030D61B1231B400585CEB /* cancel@2x.png in Resources */,
+				037481F31BF15C0800DA5CFE /* RippleShader.fsh in Resources */,
+				037481DD1BF0278900DA5CFE /* Main.storyboard in Resources */,
 				17BD92641A17F0040016070B /* camera-switch.png in Resources */,
 				17BD92651A17F0040016070B /* camera-switch@2x.png in Resources */,
 				170030DB1B1232D100585CEB /* camera-flash@2x.png in Resources */,
 				17E4C4931A0122A700E61ACD /* LaunchScreen.xib in Resources */,
 				170030D51B1231B400585CEB /* cancel.png in Resources */,
+				037481F41BF15C0800DA5CFE /* RippleShader.vsh in Resources */,
 				17E4C4901A0122A700E61ACD /* Images.xcassets in Resources */,
 				170030D71B1231B400585CEB /* cancel@3x.png in Resources */,
 				170030DA1B1232D100585CEB /* camera-flash.png in Resources */,
@@ -306,20 +463,37 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		037481B41BED70FF00DA5CFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				037481CC1BED714900DA5CFE /* LLCapturePipelineDelegate.swift in Sources */,
+				037481C81BED713F00DA5CFE /* UIImage+FixOrientation.m in Sources */,
+				03A5627E1BF2CF03007BE45F /* DefaultRenderer.swift in Sources */,
+				037481E91BF12CE900DA5CFE /* RosyWriterCIFilterRenderer.m in Sources */,
+				037481C91BED714300DA5CFE /* LLSimpleCamera.m in Sources */,
+				037481D91BEFA60500DA5CFE /* RosyWriterOpenGLRenderer.m in Sources */,
+				037481C71BED713000DA5CFE /* LLCameraViewController.swift in Sources */,
+				037481CB1BED714900DA5CFE /* LLMovieRecorder.m in Sources */,
+				037481CA1BED714900DA5CFE /* LLCapturePipeline.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		17E4C47B1A0122A700E61ACD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				170030D11B122F3700585CEB /* VideoViewController.m in Sources */,
 				17BD92341A1776E20016070B /* ImageViewController.m in Sources */,
-				17E4C4AB1A01235200E61ACD /* LLSimpleCamera.m in Sources */,
 				17E4C4B31A0123C100E61ACD /* UIImage+Crop.m in Sources */,
-				1713621B1A0144100034A6FE /* UIImage+FixOrientation.m in Sources */,
 				17E4C4BC1A0128EC00E61ACD /* ViewUtils.m in Sources */,
+				037481EF1BF15BFC00DA5CFE /* RippleModel.m in Sources */,
 				17E4C4881A0122A700E61ACD /* AppDelegate.m in Sources */,
 				17E4C4851A0122A700E61ACD /* main.m in Sources */,
 				17E4C4B91A01285800E61ACD /* HomeViewController.m in Sources */,
+				037481F01BF15BFC00DA5CFE /* RippleOpenGLRenderer.m in Sources */,
 				17E4C4B51A0123C100E61ACD /* UIImage+Resize.m in Sources */,
+				03A5627B1BF1C74A007BE45F /* ExampleCameraViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,7 +501,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17E4C49F1A0122A700E61ACD /* LLSimpleCameraExampleTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,6 +526,57 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		037481C31BED70FF00DA5CFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = LLSimpleCamera/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thegiantpixel.LLSimpleCamera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		037481C41BED70FF00DA5CFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = LLSimpleCamera/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thegiantpixel.LLSimpleCamera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		17E4C4A01A0122A700E61ACD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -372,6 +596,8 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				DEFINES_MODULE = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -391,6 +617,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				USE_HEADERMAP = YES;
 			};
 			name = Debug;
 		};
@@ -413,6 +640,8 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
+				DEFINES_MODULE = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -425,6 +654,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				USE_HEADERMAP = YES;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -433,11 +663,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEFINES_MODULE = YES;
 				INFOPLIST_FILE = LLSimpleCameraExample/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = LLSimpleCameraExample;
+				SWIFT_OBJC_BRIDGING_HEADER = "LLSimpleCameraExample/LLSimpleCameraExample-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -445,11 +679,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				DEFINES_MODULE = YES;
 				INFOPLIST_FILE = LLSimpleCameraExample/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = LLSimpleCameraExample;
+				SWIFT_OBJC_BRIDGING_HEADER = "LLSimpleCameraExample/LLSimpleCameraExample-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -467,8 +704,8 @@
 				);
 				INFOPLIST_FILE = LLSimpleCameraExampleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LLSimpleCameraExample.app/LLSimpleCameraExample";
+				PRODUCT_NAME = LLSimpleCamera;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LLSimpleCamera.app/LLSimpleCamera";
 			};
 			name = Debug;
 		};
@@ -482,15 +719,24 @@
 				);
 				INFOPLIST_FILE = LLSimpleCameraExampleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LLSimpleCameraExample.app/LLSimpleCameraExample";
+				PRODUCT_NAME = LLSimpleCamera;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LLSimpleCamera.app/LLSimpleCamera";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		17E4C47A1A0122A700E61ACD /* Build configuration list for PBXProject "LLSimpleCameraExample" */ = {
+		037481C21BED70FF00DA5CFE /* Build configuration list for PBXNativeTarget "LLSimpleCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				037481C31BED70FF00DA5CFE /* Debug */,
+				037481C41BED70FF00DA5CFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17E4C47A1A0122A700E61ACD /* Build configuration list for PBXProject "LLSimpleCamera" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				17E4C4A01A0122A700E61ACD /* Debug */,
@@ -508,7 +754,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		17E4C4A51A0122A700E61ACD /* Build configuration list for PBXNativeTarget "LLSimpleCameraExampleTests" */ = {
+		17E4C4A51A0122A700E61ACD /* Build configuration list for PBXNativeTarget "LLSimpleCameraTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				17E4C4A61A0122A700E61ACD /* Debug */,

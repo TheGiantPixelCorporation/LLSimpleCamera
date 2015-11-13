@@ -16,7 +16,12 @@ hides the nitty gritty details from the developer
   s.author       = { "Ömer Faruk Gül" => "omergul123@gmail.com" }
   s.platform     = :ios,'7.0'
   s.source       = { :git => "https://github.com/omergul123/LLSimpleCamera.git", :tag => "v3.0.0" }
+  s.public_header_files = ['LLSimpleCamera/*.h', 'LLSimpleCamera/**/*.h']
   s.source_files  = 'LLSimpleCamera/*.{h,m}'
   s.requires_arc = true
   s.framework = 'AVFoundation'
+  s.framework = 'CoreMedia'
+  s.framework = 'CoreVideo'
+  s.framework = 'CoreImage'
+  s.framework = 'OpenGLES'
 end

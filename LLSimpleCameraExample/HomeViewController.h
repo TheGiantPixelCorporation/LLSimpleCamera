@@ -1,14 +1,14 @@
+////
+////  HomeViewController.h
+////  LLSimpleCameraExample
+////
+////  Created by Ömer Faruk Gül on 29/10/14.
+////  Copyright (c) 2014 Ömer Faruk Gül. All rights reserved.
+////
 //
-//  HomeViewController.h
-//  LLSimpleCameraExample
+//#import <UIKit/UIKit.h>
+//#import "LLSimpleCamera.h"
 //
-//  Created by Ömer Faruk Gül on 29/10/14.
-//  Copyright (c) 2014 Ömer Faruk Gül. All rights reserved.
+//@interface HomeViewController : UIViewController
 //
-
-#import <UIKit/UIKit.h>
-#import "LLSimpleCamera.h"
-
-@interface HomeViewController : UIViewController
-
-@end
+//@end

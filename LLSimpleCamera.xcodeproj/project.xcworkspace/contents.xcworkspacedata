@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:LLSimpleCameraExample.xcodeproj">
+      location = "self:/Users/btrimble/dev/TGP/LLSimpleCamera/LLSimpleCamera.xcodeproj">
    </FileRef>
 </Workspace>
